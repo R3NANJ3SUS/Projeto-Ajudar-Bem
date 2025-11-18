@@ -1,0 +1,43 @@
+<style>
+body {
+font-family: Arial, sans-serif;
+background: #ffffff;
+color: #222222;
+font-size: 18px;
+margin: 0;
+padding: 0;
+}
+
+
+body.alto-contraste {
+background: #000000;
+color: #ffffff;
+}
+
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 16px;
+padding: 16px;
+}
+
+
+a {
+text-decoration: none;
+color: #0033cc;
+}
+
+
+a:focus, button:focus, input:focus, textarea:focus {
+outline: 3px solid #ffcc00;
+}
+
+
+main img {
+max-width: 300px;
+display: block;
+margin-top: 20px;
+}
+
+</style>
